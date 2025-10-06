@@ -1,12 +1,12 @@
 <!--Unit 2 Project
 Requirements
-[x  ] Two Element Selectors
-[x  ] Two ID Selectors
-[  ] Two Class Selectors
-[  ] Three Images
+[xx  ] Two Element Selectors
+[xx  ] Two ID Selectors
+[xx  ] Two Class Selectors
+[xxx  ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include Border Radius CSS Property 
+[ yes ] Feature 1 - Include Border Radius CSS Property 
 [ no ] Feature 2 - Include a Static Background Image
 [ no ] Feature 3 - Include An Animated Background Color Change
 [ no ] Feature 4 - Embed YouTube Video 
@@ -29,28 +29,47 @@ Select ONE Additional Feature to Add
          #Gas {
             color:brown
          }
+         .glorp {color: rgb(90, 67, 112);
+            font-size: 1.5em;
+        }
+        #rocket {
+            color:red
+        }
+        .adj {
+            color:rgb(86, 107, 64)
+        }
+        img {
+            border-radius: 90px
+        }
         </style>
     </head>
-    <body style=font-family:monospace>
-<h1>Visiting Planet Glorp</h1>
+    <body style="font-family:monospace; background-color: rgb(243, 243, 243);"">
+<h1>Visiting <span class= "glorp">Planet Glorp</span></h1>
         <h2>Everything you need to know</h3>
-<h4>How to get to planet Glorp</h4>
+<h4>How to get to <span class= "glorp">Planet Glorp</span></h4>
 <ol>
-    <li>Leave earth via rocket</li>
+    <li>Leave earth via <span id="rocket">rocket</span></li>
     <li>Take a left at Jupiter</li>
-    <li>Continue straight for another 35 lightyears</li>
-    <li id="arrive">Arrive at your destination, <strong><em>planet Glorp!</em></strong></li>
+    <li>Continue straight for another <span class="adj">35 lightyears</span></li>
+    <li id="arrive">Arrive at your destination, <strong><em>Planet Glorp!</em></strong></li>
 </ol>
 <img src="442355.jpg" width="200px">
-<h4>What to bring to planet Glorp</h4>
+<h4>What to bring to <span class= "glorp">Planet Glorp</span></h4>
 
 <ol>
     <li>Human food and drinking water <em>(the glorpians eat a linoleum-based diet)</em></li>
-    <li>Your translator device*<em> (duh, they don't speak english over there)</em></li>
-    <li id="Gas">Fuel for the journey home (Gas prices are ridiculous on planet Glorp)</li>
+    <li>Your translator device*<em> (duh, they don't speak English over there)</em></li>
+    <li id="Gas">Fuel for the journey home (Gas prices are ridiculous on Planet Glorp)</li>
 </ol>
 <img src="Star-Trek-Translator-2.avif" width="200px">
 <p><em>*translator device</em></p>
-
+<h4>Why you should visit <span class="glorp">Planet Glorp</span></h4>
+<ol>
+    <li>Its the <em>closest</em> inhabited planet to Earth!</li>
+    <li>The <span class="glorp">Glorpians</span> are very kind and welcoming.</li>
+    <li>The food is <span class="adj">amazing.</span></li>
+</ol>
+<img src="alienfood.jpg" width="200px">
+<p><em>A traditional <span class="glorp">Glorpian</span> dish</em></p>
     </body>
 </html>
